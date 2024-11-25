@@ -1,0 +1,543 @@
+/* mobile screen */
+@media screen and (min-width : 300px) and (max-width : 499px) {
+
+  /* desktop-navbar hide */
+  .desktop-navbar {
+    display: none;
+  }
+
+  #navbar{
+    position: fixed;
+  }
+
+  .mobile-navbar-right > .donate-btn{
+    display: none;
+  }
+
+  .mobile-navbar-right{
+    min-width: 100px;
+  }
+
+  .hero-section{
+    margin-top: 2.3em;
+    flex-direction: column-reverse;
+    padding: 1em;
+  }
+
+
+  .hero-left{
+    width: 100%;
+    height: 50%;
+  }
+
+  .hero-right{
+    width: 100%;
+    height: 50%;
+  }
+
+  .hero-section h1{
+    font-size: 2.5em;
+  }
+
+
+  .section-2{
+    flex-direction: column;
+  }
+
+  .section-2-left{
+    width: 60%;
+    height: 300px;
+  }
+
+  .section-2-right{
+    width: 100%;
+    height: 350px;
+    padding: 1em;
+  }
+
+  .section-2-right-desc{
+    gap: 10px;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+
+  .service p{
+    font-size: 0.8em;
+  }
+
+  .service > img{
+    width: 30px;
+    height: 30px;
+  }
+  .section-3-container{
+    padding: 1em;
+  }
+
+  .card{
+    width: 270px;
+    height: 270px;
+  }
+
+
+  .card .count, .card span {
+    font-size: 1.5em;
+}
+
+  .testimonial-body{
+    flex-direction: column;
+  }
+
+  .testimonial-left{
+    width: 100%;
+    height: 50%;
+  }
+
+  .testimonial-right{
+    position: relative;
+    width: 100%;
+  }
+
+  .testimonial-right-desc{
+    padding: 1em;
+  }
+
+  .quote{
+    font-size: 1.2em;
+  }
+
+  .testimonial-container{
+    padding: 1em;
+  }
+
+  .quote{
+    font-size: 1em;
+  }
+
+  .footer-container{
+    padding: 1em;
+  }
+
+  .footer-navigations{
+    height: 150px;
+  }
+
+  .footer-navigations .navigations-list{
+    flex-direction: column;
+  }
+
+  .social-icon{
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-icon > a{
+    font-size: 1.3em;
+  }
+
+  .main-footer{
+    height: 150px;
+  }
+
+  .main-footer-container{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .what-we-do-service{
+    padding:  1em ;
+  }
+
+
+  .what-we-do-hero-heading{
+    left: 4%;
+    }
+
+  .what-we-do-hero-heading h1{
+    font-size: 2em;
+  }
+
+  .service-desc{
+    height: 500px;
+    flex-direction: column-reverse;
+  }
+
+  .service-images{
+    height: 300px;
+  }
+
+  .service-left{
+    width: 100%;
+    gap: 10px;
+  }
+
+
+
+  .service-right{
+    width: 100%;
+    height: 40%;
+  }
+
+  .service-right-desc{
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .cancer-patient-img-1{
+    top: 0px;
+  }
+
+  .cancer-patient-img-2{
+    display: none;
+  }
+
+  .cancer-patient-img-3{
+    display: none;
+  }
+
+
+  .what-we-do-service:nth-child(2) .service-desc{
+    flex-direction: column-reverse;
+  }
+
+  .child-img-1{
+    top: 0px;
+  }
+
+  .child-img-2{
+    display: none;
+  }
+
+  .child-img-3{
+    display: none;
+  }
+
+  .women-empowerment-img-1{
+    top: 0px;
+  }
+
+  .women-empowerment-img-2{
+    display: none;
+  }
+
+  .women-empowerment-img-3{
+    display: none;
+
+  }
+
+  .owner-thoughts{
+    width: 100%;
+    padding: 1em;
+  }
+
+  .owner-thoughts q{
+    font-size: 1.1em;
+  }
+
+  .hero-desc{
+    font-size: 1.5em;
+  }
+}
+
+/* large mobile screen */
+@media screen and (min-width : 500px) and (max-width : 767px) {
+
+  /* desktop-navbar hide */
+  .desktop-navbar {
+    display: none;
+  }
+
+  #navbar{
+    position: fixed;
+  }
+
+  .hero-section{
+    flex-direction: column-reverse;
+    padding: 2em;
+    margin-top: 1em;
+  }
+
+
+  .hero-left{
+    width: 100%;
+    height: 40%;
+  }
+
+  .hero-right{
+    width: 80%;
+    height: 60%;
+  }
+
+  .hero-section h1{
+    font-size: 3.5em;
+  }
+
+  .section-2{
+    flex-direction: column;
+    padding: 2em;
+  }
+
+  .section-2-left{
+    width: 60%;
+    /* height: 300px; */
+  }
+
+  .section-2-right{
+    width: 100%;
+    height: 350px;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+  .service p{
+    font-size: 1em;
+  }
+
+  .testimonial-body{
+    flex-direction: column;
+  }
+
+  .testimonial-left{
+    width: 100%;
+  }
+
+  .testimonial-right{
+    position: relative;
+    width: 100%;
+  }
+
+  .quote{
+    font-size: 1.2em;
+  }
+
+  .main-footer-container{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .what-we-do-hero-heading h1{
+    font-size: 3em;
+  }
+
+  .service-desc{
+    height: 500px;
+    flex-direction: column-reverse;
+    padding: 2em 3em;
+  }
+
+  .what-we-do-service:nth-child(2) .service-desc{
+    flex-direction: column-reverse;
+  }
+
+  .service-left{
+    width: 100%;
+  }
+
+
+
+  .service-right{
+    width: 100%;
+  }
+
+  .service-right-desc{
+    width: 100%;
+    align-items: center;
+  }
+
+  .cancer-patient-img-1{
+    top: 0px;
+  }
+
+  .cancer-patient-img-2{
+    display: none;
+  }
+
+  .cancer-patient-img-3{
+    display: none;
+  }
+
+  .child-img-1{
+    top: 0px;
+  }
+
+  .child-img-2{
+    display: none;
+  }
+
+  .child-img-3{
+    display: none;
+  }
+
+
+  .women-empowerment-img-1{
+    top: 0px;
+  }
+
+  .women-empowerment-img-2{
+    display: none;
+  }
+
+  .women-empowerment-img-3{
+    display: none;
+
+  }
+
+  .hero-desc{
+    font-size: 1.5em;
+  }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width : 1060px){
+  .child-img-3{
+    top: -70px;
+  }
+}
+
+/* tablet screen */
+@media screen and (min-width : 768px) and (max-width : 1000px) {
+
+  /* desktop-navbar hide */
+  .desktop-navbar {
+    display: none;
+  }
+
+  #navbar{
+    position: fixed;
+  }
+
+  .hero-section{
+    padding: 1em  ;
+  }
+
+  .hero-left{
+    width: 80%;
+    top: -10%;
+  }
+
+  .hero-right{
+    height: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .hero-section h1{
+    font-size: 4em;
+  }
+
+  .section-2-left{
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    top: 10%;
+    left: 10px;
+  }
+
+  .section-2-right{
+    width: 55%;
+    top: 10%;
+    left: 20%;
+    height: 500px;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+  .service p{
+    font-size: 1em;
+  }
+
+  .service-left p{
+    width: 80%;
+    line-height: 2em;
+  }
+
+  .testimonial-body{
+    flex-direction: column;
+  }
+
+  .testimonial-left{
+    width: 100%;
+  }
+
+  .testimonial-right{
+    position: relative;
+    width: 100%;
+  }
+
+  .service-desc{
+    padding: 0px 1em;
+  }
+
+  .cancer-patient-img-2{
+    display: none;
+  }
+
+  .child-img-2{
+    display: none;
+  }
+
+  .women-empowerment-img-2{
+    display: none;
+  }
+}
+
+/* laptop screen */
+@media screen and (min-width : 1001px) and (max-width : 1440px) {
+
+  /* mobile-navbar hide */
+  .mobile-navbar {
+    display: none;
+  }
+
+  .hero-left{
+    width: 40%;
+  }
+
+  .hero-right{
+    width: 50%;
+  }
+
+
+  .service-left p{
+    width: 80%;
+    line-height: 2em;
+  }
+
+
+
+}
+
+/* desktop screen */
+@media screen and (min-width : 1441px) and (max-width : 1920px) {
+
+  /* mobile-navbar hide */
+  .mobile-navbar {
+    display: none;
+  }
+
+  .service-left p{
+    width: 80%;
+    line-height: 2em;
+  }
+
+}
+
+/* 2k screen */
+@media screen and (min-width : 1921px) {
+
+  /* mobile-navbar hide */
+  .mobile-navbar {
+    display: none;
+  }
+
+}
